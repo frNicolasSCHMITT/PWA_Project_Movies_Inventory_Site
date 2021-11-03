@@ -1,1 +1,12 @@
+API TheMovieDB:
+
 https://api.themoviedb.org/3/search/movie?api_key=ed82f4c18f2964e75117c2dc65e2161d&query=Jack+Reacher
+
+HTTP sur Mobile : 
+
+Lien : chrome://inspect:#devices
+URL Mobile : http://localhost:5500
+
+Bannière "Add to home screen" : 
+
+https://developers.google.com/web/fundamentals/app-install-banners/native
