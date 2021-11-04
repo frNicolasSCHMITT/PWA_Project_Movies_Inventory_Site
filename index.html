@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What Watch</title>
+    <title>What2Watch</title>
     <link rel="shortcut icon" href="./assets/icons/icon-128x128.png" />
     <link rel="stylesheet" href="./style.css" />
     <!-- PWA -->
@@ -15,7 +15,10 @@
     <meta name="theme-color" content="white" />
   </head>
   <body>
-    <h1>What Watch</h1>
+    <div class="app-banner">
+      <p>Installer la Web App What2Watch ?</p>
+    </div>
+    <h1>What2Watch</h1>
     <form id="searchForm">
       <input
         type="text"
@@ -28,7 +31,18 @@
     <div class="result-container">
       <ul id="result"></ul>
     </div>
-    <img src="./assets/icons/icon-512x512.png" alt="logo" />
+    <img class="site-logo" src="./assets/icons/icon-512x512.png" alt="logo" />
+    <div class="localisation">
+      <h2>Votre localisation :</h2>
+      <div class="bloc-latitude">
+        <h3>Latitude :</h3>
+        <div class="latitude"></div>
+      </div>
+      <div class="bloc-longitude">
+        <h3>Longitude :</h3>
+        <div class="longitude"></div>
+      </div>
+    </div>
 
     <script src="./js/index.js"></script>
     <script src="./js/app.js"></script>

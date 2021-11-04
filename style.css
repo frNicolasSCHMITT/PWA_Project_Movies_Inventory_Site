@@ -1,15 +1,36 @@
 * {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 body {
   background: #000;
   color: floralwhite;
   text-align: center;
 }
+.app-banner {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  background: floralwhite;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.app-banner:hover {
+  border-bottom: 5px solid #ff1177;
+  background: rgb(46, 46, 46);
+  color: #ff1177;
+  letter-spacing: 1px;
+}
 h1 {
+  color: #ff1177;
   font-size: 3rem;
   letter-spacing: 3px;
-  margin: 40px 10px 40px;
+  margin: 60px 10px 40px;
 }
 input {
   border: none;
@@ -31,11 +52,18 @@ input[type="submit"] {
   background: rgb(177, 176, 176);
   transition: 0.3s ease;
   cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 input[type="submit"]:hover {
   background: rgb(46, 46, 46);
-  color: floralwhite;
+  color: #ff1177;
+  text-decoration: underline;
   letter-spacing: 1px;
+}
+.site-logo {
+  border: 5px solid #ff1177;
+  border-radius: 20px;
 }
 img {
   object-fit: cover;

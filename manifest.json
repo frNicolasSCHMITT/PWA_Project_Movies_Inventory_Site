@@ -1,6 +1,6 @@
 {
-  "name": "What Watch",
-  "short_name": "WW",
+  "name": "What2Watch",
+  "short_name": "W2W",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
