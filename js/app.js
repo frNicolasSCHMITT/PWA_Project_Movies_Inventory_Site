@@ -1,3 +1,17 @@
+// OFFLINE MODE
+
+function onlineCheck() {
+  if (navigator.onLine) {
+    document.location.href = "/index.html";
+  } else {
+    document.location.href = "/offline.html";
+  }
+}
+window.addEventListener("online", onlineCheck);
+window.addEventListener("offline", onlineCheck);
+
+//
+
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/serviceWorker.js");
 }

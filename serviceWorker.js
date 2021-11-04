@@ -1,7 +1,13 @@
 // mise en cache
 
 const staticCacheName = "cache-v1";
-const assets = ["/", "/index.html"];
+const assets = [
+  "/",
+  "/index.html",
+  "/offline.html",
+  "/style.css",
+  "/assets/icons/icon-512x512.png",
+];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
