@@ -66,6 +66,7 @@ function setCurrentPosition(position) {
   document.querySelector(".latitude").innerHTML = position.coords.latitude;
   document.querySelector(".longitude").innerHTML = position.coords.longitude;
   // document.querySelector(".speed").innerHTML = position.coords.speed;
+  // document.querySelector(".cineMap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.493198611871!2d5.354740315574182!3d45.96140797910984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b519a39757e71%3A0x52cb524039ea3595!2sCin%C3%A9%20Festival!5e0!3m2!1sfr!2sfr!4v1636108841033!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'
 }
 
 // ERROR HANDLING

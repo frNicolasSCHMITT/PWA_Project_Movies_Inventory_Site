@@ -15,7 +15,8 @@ const fetchMovies = async () => {
 const moviesDisplay = async () => {
   await fetchMovies();
 
-  movies.results.length = 12;
+  // limiter le nombre de résultats :
+  // movies.results.length = 12;
 
   result.innerHTML = movies.results
     .map(
